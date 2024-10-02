@@ -1,5 +1,5 @@
 {
-  "name": "@username/ajs",
+  "name": "@anna-edel/ajs",
   "version": "1.0.0",
   "main": "dist/index.js",
   "publishConfig": {
