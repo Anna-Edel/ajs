@@ -8,3 +8,12 @@ function info() {
   export default {
     info
   };
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = ajs;
+}
+
+// Это нужно для браузера
+if (typeof window !== 'undefined') {
+  window.ajs = ajs;
+}
